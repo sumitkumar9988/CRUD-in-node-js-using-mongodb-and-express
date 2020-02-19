@@ -4,7 +4,8 @@ const dotenv = require('dotenv');
 const morgan = require('morgan');
 const dotenv_file = dotenv.config({ path: './config.env' });
 const tourRouter = require('./tourRoutes');
-
+//comment
+//node js project
 const app = express();
 app.use(express.json());
 if (dotenv_file.error) {
